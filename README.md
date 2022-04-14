@@ -15,7 +15,7 @@ ejecutar en consola
 - composer install
 - cp copiar.txt .env (Este archivo es para que el proyecto no genere el nombre de la base de datos por defecto como el nombre de la carpeta sino por el indicado)
 
-##### **En este punto por favor crear una base de datos en phpmyadmin llamada prueba_tecnica_dev esto con el fin de ejecutar las migraciones**
+##### **En este punto por favor crear una base de datos en PhpMyAdmin llamada prueba_tecnica_dev esto con el fin de ejecutar las migraciones**
 
 Posteriormente de haber creado la base de datos continuamos con la migracion de las tablas ejecutando el siguiente comando:
 - php artisan migrate -\-seed (En caso de que esta linea de codigo se copie con un solo guion por favor añadir otra mas, deben ser 2 guiones antes de la palabra: seed)
