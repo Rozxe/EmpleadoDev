@@ -1,21 +1,24 @@
-# EmpleadoDev
-Prueba Tecnica - Enrique Ealo
+### EmpleadoDev
+**Prueba Tecnica - Enrique Ealo**
 
+## Guia
 para ejecutar el proyecto debes seguir los siguientes pasos en tu consola despues de hacer el pull al proyecto:
 
-** En caso de no tene laravel instalado ** <br>
- Ejecutar la siguiente linea de comando: <br>
- composer global require laravel/installer <br>
-** En caso de no tene laravel instalado ** <br>
+## En caso de no tener instalado Laravel
+#####** En caso de no tener Laravel instalado  ejecutar la siguiente lineas de comando en consola**
+- composer global require laravel/installer
 
-** Pasos a seguir para ejecutar el servidor de laravel ** <br>
-cd pruebaTecnicaEmpleado <br>
-composer install <br>
-cp copiar.txt .env <br>
-php artisan key:generate <br>
+## Ejecutar Servidor
+#####** Seguir las siguientes indicaciones**
+ejecutar en consola
+- cd pruebaTecnicaEmpleado
+- composer install
+- cp copiar.txt .env (Este archivo es para que el proyecto no genere el nombre de la base de datos por defecto como el nombre de la carpeta sino por el indicado)
 
-Llegado a este punto este punto por favor crear una base de datos en phpmyadmin llamada "prueba_tecnica_dev" esto con el fin de ejecutar las migraciones<br>
-Posteriormente de haber creado la base de datos ejecutar los siguientes comandos:<br>
+##### **En este punto por favor crear una base de datos en phpmyadmin llamada prueba_tecnica_dev esto con el fin de ejecutar las migraciones**
 
-php artisan migrate --seed <br>
-php artisan serve <br>
+Posteriormente de haber creado la base de datos continuamos con la migracion de las tablas ejecutando el siguiente comando:
+- php artisan migrate -\-seed (En caso de que esta linea de codigo se copie con un solo guion por favor añadir otra mas, deben ser 2 guiones antes de la palabra: seed)
+- php artisan serve
+
+####Con esto ya estaria tu proyecto de laravel ejecutando
