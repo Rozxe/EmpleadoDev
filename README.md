@@ -1,5 +1,5 @@
 ### EmpleadoDev
-** Prueba Tecnica - Enrique Ealo**
+** Prueba Tecnica - Enrique Ealo **
 
 ## Guia
 para ejecutar el proyecto debes seguir los siguientes pasos en tu consola despues de hacer el pull al proyecto:
@@ -9,7 +9,7 @@ para ejecutar el proyecto debes seguir los siguientes pasos en tu consola despue
 - composer global require laravel/installer
 
 ## Ejecutar Servidor
-##### ** Seguir las siguientes indicaciones**
+##### ** Seguir las siguientes indicaciones **
 ejecutar en consola
 - cd pruebaTecnicaEmpleado
 - composer install
